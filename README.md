@@ -2,6 +2,8 @@
 
 Working example of [django-rest-framework](https://github.com/tomchristie/django-rest-framework/tree/master) using OAuth2Authentication ([django-oauth2-provider](https://github.com/caffeinehit/django-oauth2-provider)) and SessionAuthentication for browseable API.
 
+Inspired by Karl Ranna's project: [https://github.com/erkarl/django-rest-framework-oauth2-provider-example](https://github.com/erkarl/django-rest-framework-oauth2-provider-example).
+
 
 ## Checkout the code
 
