@@ -1,5 +1,4 @@
 Django==1.5.5
-South==0.8.2
 argparse==1.2.1
 django-cors-headers==0.12
 django-oauth2-provider==0.2.6

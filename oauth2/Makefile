@@ -1,6 +1,6 @@
 initdb:
 	python manage.py syncdb 
-	python manage.py migrate
+	#python manage.py migrate
 
 install:
 	pip install --upgrade setuptools
