@@ -1,8 +1,14 @@
 from django.conf.urls import patterns, include, url
 
+from rest_framework import routers
+from users import views
+
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
 admin.autodiscover()
+
+router = routers.DefaultRouter()
+router.register(r'users', views.UserViewSet)
 
 urlpatterns = patterns('',
     # Examples:
@@ -15,4 +21,5 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
     url(r'^oauth2/', include('provider.oauth2.urls', namespace='oauth2')),
+    url(r'^api/', include(router.urls)),
 )
