@@ -123,6 +123,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
+    'provider',
+    'provider.oauth2',
     #'south',
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',

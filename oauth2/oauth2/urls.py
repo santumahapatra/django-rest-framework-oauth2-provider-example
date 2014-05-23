@@ -14,4 +14,5 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
+    url(r'^oauth2/', include('provider.oauth2.urls', namespace='oauth2')),
 )
